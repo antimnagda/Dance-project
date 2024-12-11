@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Signika+Negative&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div#img{
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    height: 60px;
+}
+div#img, p{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+
+
+}
+div#img, img{
+    height: 60px;
+}
+#bar ul{
+    display: flex;
+    
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    align-items: center;
+}
+li{
+    padding: 9px;
+}
+a{
+    color:red;
+    font-size: 18px;
+    /* font-family: 'Lobster', sans-serif; */
+    
+    
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background: center/cover no-repeat url("/static/png.png") ; 
+    height: 550px;
+    background-color:red;
+    font-size: 60px;
+    padding-bottom: 250px;
+    
+    
+}
+div.small{
+    font-size: 30px;
+}
+#mission{
+    background-color: black;
+    /* width: 1200px; */
+    margin: auto;
+
+    height: 300px;
+    } 
+#mission h3{
+        padding-top: 10px;
+        text-align: center;    
+        color: white;
+        font-size: 30px;
+}
+div.a{
+    /* margin-top: 30px; */
+    
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    width: 350px;
+    border: 10px solid red;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 10px 70px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+div.a, p{
+    color: yellow;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+#spo{
+    background-color: rgba(181, 163, 181, 0.34);
+    height: 300px;
+    
+}
+div.cardbox{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.imgee img{
+    height: 120px;
+    filter: invert(100%);
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+#spo{
+    border: 10px solid red;
+    background-color: rgba(181, 163, 181, 0.34);
+    height: 300px;
+    
+}
+#spo, ul{
+background-color:black;
+}
+#spo, h{
+    font-size: 30px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+div#logos{
+    display: flex;
+    justify-content: center;
+    
+}
+div.ime{
+    margin: 25px;
+}
+
+#foot{
+    display: flex;
+    height: 35px;
+    background-color: rgb(247, 7, 7);
+    
+}
+#foot, p{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* text-align: center; */
+    font-size: 18px;
+
+}
+
+

@@ -1,0 +1,14 @@
+extends base.pug
+block style 
+  style 
+          include ../static/style.css 
+          include ../static/contact.css
+block content
+  p.head  JOIN UP FORM
+  form(action="/register" method="post")
+    input#items(type="text", name="name", placeholder=" your name")
+    input#items(type="email", name="email", placeholder=" email")
+    input#items(type="number", name= "number", placeholder="number")
+    input#items(type="text", name="address", placeholder=" your address")
+    textarea#items( name="info")|write about yourself 
+    button#btn submit 

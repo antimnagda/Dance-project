@@ -1,0 +1,22 @@
+doctype html 
+html
+  head
+    title dance acedemy 
+    block script 
+    block style 
+      style 
+        include ../static/style.css    
+  body
+    nav#bar 
+      ul
+        div#img
+          img(src="/static/logo.png", alt="not found")
+          p ABCD
+        li #[a(href="/") Home] 
+        li #[a(href="/") About]
+        li #[a(href="/") Support] 
+        li #[a(href="/register") Register]
+        li #[a(href="/") Help]      
+    block content
+    footer#foot 
+            p Copyright 2023 Antim Dance Acedemy.com |All right reserved
